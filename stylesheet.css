@@ -1,9 +1,13 @@
+@import url("http://overpass-30e2.kxcdn.com/overpass.css");
 body{
-	background-color: #696969;
+	background-color: #787878;
 	
 }
 h1{
 	text-align: center;
+	font-family: overpass, helvetica, "sans serif";
+	
+	
 }
 .content{
 	text-align: center;
