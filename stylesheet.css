@@ -24,7 +24,11 @@ h2{
 }
 
 .header{
-	border-bottom: 10px, solid, transparent;
+	border-bottom-style: solid;
+	-moz-border-image: -moz-linear-gradient(left, #000000 0%, #434343 100%);
+	-webkit-border-image: -webkit-linear-gradient(left, #000000 0%, #434343 100%);
+	 border-image: linear-gradient(to right, #000000 0%, #434343 100%);
+	 border-image-slice: 1;
 }
 .header h1{
 	margin-bottom: 5px;	
