@@ -1,14 +1,42 @@
-@import url("http://overpass-30e2.kxcdn.com/overpass.css");
+@font-face {
+	font-family: Overpass;
+	src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
+}
 body{
-	background-color: #787878;
+
+
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       color: #d3d3d3; 
 	
 }
+
 h1{
+
 	text-align: center;
-	font-family: overpass, helvetica, "sans serif";
-	
-	
+	font-family: /*Overpass bold */  Overpass, Helvetica, "Sans Serif";
+}
+
+h2{
+	font-family: /* Overpass bold */ Overpass, Helvetica, "Sans Serif";
+	font-size 32px;
+}
+
+.header{
+	border-bottom: 10px, solid, transparent;
+}
+.header h1{
+	margin-bottom: 5px;	
+	font-size: 56px;	
+}
+.header p{
+	text-align: center;
+	font-family: /* Overpass italic */ Overpass, Helvetica, "Sans Serif";
+	margin-top: 5px;
 }
 .content{
 	text-align: center;
+	font-family: Overpass, Helvetica, "Sans Serif";
+
 }
