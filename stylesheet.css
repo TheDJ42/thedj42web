@@ -2,6 +2,18 @@
 	font-family: Overpass;
 	src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
 }
+@font-face {
+	font-family: Overpass;
+	src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Regular-Italic.ttf');
+	font-style: Italic;
+}
+@font-face {
+	font-family: Overpass;
+	src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Bold.ttf');
+	font-weight: bold;
+}
+
+
 body{
 
 
@@ -16,11 +28,13 @@ h1{
 
 	text-align: center;
 	font-family: /*Overpass bold */  Overpass, Helvetica, "Sans Serif";
+	font-weight: bold;
 }
 
 h2{
 	font-family: /* Overpass bold */ Overpass, Helvetica, "Sans Serif";
-	font-size 32px;
+	font-size: 32px;
+	font-weight: bold;
 }
 
 .header{
@@ -36,7 +50,8 @@ h2{
 }
 .header p{
 	text-align: center;
-	font-family: /* Overpass italic */ Overpass, Helvetica, "Sans Serif";
+	font-family: Overpass, Helvetica, "Sans Serif";
+	font-style: italic;
 	margin-top: 5px;
 }
 .content{
