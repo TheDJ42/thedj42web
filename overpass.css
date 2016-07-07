@@ -1,22 +1,43 @@
 @font-face {
         font-family: Overpass;
-        src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
 }
 @font-face {
         font-family: Overpass;
-        src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Regular-Italic.ttf');
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Regular-Italic.ttf');
         font-style: Italic;
 }
 @font-face {
         font-family: Overpass;
-        src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Bold.ttf');
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Bold.ttf');
         font-weight: bold;
 }
 @font-face {
         font-family: Overpass;
-        src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Bold-Italic.ttf');
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Bold-Italic.ttf');
         font-style: Italic;
         font-weight: bold;
+}
+
+@font-face {
+        font-family: Overpass-Light;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Light.ttf');
+}
+
+@font-face {
+        font-family: Overpass-Light;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Light-Italic.ttf'0);
+	font-style: Italic;
+}
+
+@font-face {
+        font-family: Overpass-ExtraLight;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight.ttf');
+}
+@font-face {
+        font-family: Overpass-ExtraLight;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight-Italic.ttf');
+	font-style: Italic;
 }
 
 

@@ -1,22 +1,54 @@
 @font-face {
+        
 	font-family: Overpass;
-	src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
 }
 @font-face {
+        
 	font-family: Overpass;
-	src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Regular-Italic.ttf');
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Regular-Italic.ttf');
+        font-style: Italic;
+}
+@font-face {
+        
+	font-family: Overpass;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Bold.ttf');
+        font-weight: bold;
+}
+@font-face {
+        
+	font-family: Overpass;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Bold-Italic.ttf');
+        font-style: Italic;
+        font-weight: bold;
+}
+
+@font-face {
+        
+	font-family: Overpass-Light;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Light.ttf');
+}
+
+@font-face {
+        
+	font-family: Overpass-Light;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Light-Italic.ttf'0);
 	font-style: Italic;
 }
+
 @font-face {
-	font-family: Overpass;
-	src: url('/home/dj/src/thedj42web/fonts/overpass-fonts-ttf-2.1/Overpass-Bold.ttf');
-	font-weight: bold;
+        
+	font-family: Overpass-ExtraLight;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight.ttf');
 }
-
-
+@font-face {
+        
+	font-family: Overpass-ExtraLight;
+        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight-Italic.ttf');
+	font-style: Italic;
+}
 body{
-
-
+	
 	background: #000000; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -36,8 +68,14 @@ h2{
 	font-size: 32px;
 	font-weight: bold;
 }
+p{
 
+	text-align: center;
+	font-family: Overpass-Light, Helvetica, "Sans Serif";
+	
+}
 .header{
+	
 	border-bottom-style: solid;
 	-moz-border-image: -moz-linear-gradient(left, #000000 0%, #434343 100%);
 	-webkit-border-image: -webkit-linear-gradient(left, #000000 0%, #434343 100%);
@@ -45,17 +83,29 @@ h2{
 	 border-image-slice: 1;
 }
 .header h1{
+	
 	margin-bottom: 5px;	
 	font-size: 56px;	
 }
 .header p{
+	
 	text-align: center;
-	font-family: Overpass, Helvetica, "Sans Serif";
+	font-family: Overpass-ExtraLight, Helvetica, "Sans Serif";
 	font-style: italic;
 	margin-top: 5px;
 }
 .content{
+	
 	text-align: center;
 	font-family: Overpass, Helvetica, "Sans Serif";
 
+}
+.whoami {
+	
+	margin: auto auto auto auto
+}
+.whoami p{
+	
+	width: 900px;
+	margin: auto auto auto auto
 }
