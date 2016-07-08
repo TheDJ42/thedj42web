@@ -67,12 +67,15 @@ h2{
 	font-family: /* Overpass bold */ Overpass, Helvetica, "Sans Serif";
 	font-size: 32px;
 	font-weight: bold;
+	border-bottom-style: solid;
+	border-width: 2px;	
+	border-color: dimgrey;
 }
 p{
 
 	text-align: center;
 	font-family: Overpass-Light, Helvetica, "Sans Serif";
-	
+	font-size: 20px;	
 }
 .header{
 	
@@ -92,6 +95,7 @@ p{
 	text-align: center;
 	font-family: Overpass-ExtraLight, Helvetica, "Sans Serif";
 	font-style: italic;
+	font-size: 16px;
 	margin-top: 5px;
 }
 .content{
@@ -104,8 +108,23 @@ p{
 	
 	margin: auto auto auto auto
 }
-.whoami p{
+.content p{
 	
 	width: 900px;
 	margin: auto auto auto auto
+}
+.Edu h3{
+
+	font-family: Overpass-Light, Helvetica, "Sans Serif";	
+	position: relative;
+	top: 40px;
+	right: 440px;
+	margin: auto auto auto auto
+;
+	
+}
+.Edu small{
+
+	display: inline-block;
+	/*position: absolute;*/
 }
