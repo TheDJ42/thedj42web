@@ -54,7 +54,7 @@ li{
 	margin-top: -50px;
 	margin-left: -50px;
 	width: 50%;
-	height: 100px;
+	height: 50%;
 }
 
 .content ul{
@@ -68,15 +68,15 @@ li{
 	text-align: left;
 }
 
-.allButtons{
-
-	text-align: left;
-}
-
-.allButtons li{
 
 
+.buttons{ 
+
+	text-align: center;
+	display: inline;
 	
-	display: inline;	
 }
 
+.buttons div{
+
+}
