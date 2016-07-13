@@ -53,7 +53,7 @@ li{
 	left: 50%;
 	margin-top: -50px;
 	margin-left: -50px;
-	width: 100px;
+	width: 50%;
 	height: 100px;
 }
 
@@ -68,9 +68,15 @@ li{
 	text-align: left;
 }
 
+.allButtons{
+
+	text-align: left;
+}
+
 .allButtons li{
 
 
+	
 	display: inline;	
 }
 
