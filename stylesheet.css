@@ -108,23 +108,20 @@ p{
 	
 	margin: auto auto auto auto
 }
-.content p{
+.whoami p{
 	
 	width: 900px;
 	margin: auto auto auto auto
 }
-.Edu h3{
-
-	font-family: Overpass-Light, Helvetica, "Sans Serif";	
-	position: relative;
-	top: 40px;
-	right: 440px;
-	margin: auto auto auto auto
-;
+.Edu h3 {
 	
+	font-family: Overpass-Light, Helvetica, "Sans Serif";
+	text-align: left;
 }
 .Edu small{
 
-	display: inline-block;
-	/*position: absolute;*/
+	text-align: left;
+}
+.Edu p{
+	text-align: right;
 }
