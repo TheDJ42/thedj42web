@@ -1,3 +1,5 @@
+/* This is the basic Template File for the CSS in this site, this should be copied to all stylesheets in the website.*/
+
 @font-face {
         
 	font-family: Overpass;
@@ -84,7 +86,6 @@ p{
 	-webkit-border-image: -webkit-linear-gradient(left, #000000 0%, #434343 100%);
 	 border-image: linear-gradient(to right, #000000 0%, #434343 100%);
 	 border-image-slice: 1;
-	 padding-bottom: 13px;
 }
 .header h1{
 	
@@ -99,49 +100,10 @@ p{
 	font-size: 16px;
 	margin-top: 5px;
 }
-.header nav{
-	
-	text-align: center;
-	font-family: Overpass-Light, Helvetica, "Sans Serif";
-}
-.header nav a{
-	
-	text-decoration: none;
-	color: white;
-	padding: 8px 16px;
-	margin-bottom: 8px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: gray;
-}
-.header nav a:hover{
-	
-	background-color: green;
-}
 .content{
 	
 	text-align: center;
 	font-family: Overpass, Helvetica, "Sans Serif";
 
 }
-.whoami {
 	
-	margin: auto auto auto auto
-}
-.whoami p{
-	
-	width: 900px;
-	margin: auto auto auto auto
-}
-.Edu h3 {
-	
-	font-family: Overpass-Light, Helvetica, "Sans Serif";
-	text-align: left;
-}
-.Edu small{
-
-	text-align: left;
-}
-.Edu p{
-	text-align: right;
-}
