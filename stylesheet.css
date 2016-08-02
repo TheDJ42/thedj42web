@@ -107,6 +107,7 @@ p{
 .header nav a{
 	
 	text-decoration: none;
+	background-color: dimgray;
 	color: white;
 	padding: 8px 16px;
 	margin-bottom: 8px;
@@ -116,12 +117,17 @@ p{
 }
 .header nav a:hover{
 	
-	background-color: green;
+	background-color: #757575;
 	-webkit-transition: ease .25s; /* Chrome, Safari */ 
 	transition: ease .25s; /* Firefox, Opera, Edge */
 }
 .header nav a:active{
 	background-color: blue;
+}
+.header nav a.current{
+	
+	background-color: #808080;
+	color: black;
 }
 .content{
 	
