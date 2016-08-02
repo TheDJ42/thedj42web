@@ -117,6 +117,11 @@ p{
 .header nav a:hover{
 	
 	background-color: green;
+	-webkit-transition: ease .25s; /* Chrome, Safari */ 
+	transition: ease .25s; /* Firefox, Opera, Edge */
+}
+.header nav a:active{
+	background-color: blue;
 }
 .content{
 	
