@@ -1,26 +1,24 @@
-/* This is the basic Template File for the CSS in this site, this should be copied to all stylesheets in the website.*/
-
 @font-face {
         
 	font-family: Overpass;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-Regular.ttf');
 }
 @font-face {
         
 	font-family: Overpass;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Regular-Italic.ttf');
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-Regular-Italic.ttf');
         font-style: Italic;
 }
 @font-face {
         
 	font-family: Overpass;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Bold.ttf');
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-Bold.ttf');
         font-weight: bold;
 }
 @font-face {
         
 	font-family: Overpass;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Bold-Italic.ttf');
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-Bold-Italic.ttf');
         font-style: Italic;
         font-weight: bold;
 }
@@ -28,25 +26,25 @@
 @font-face {
         
 	font-family: Overpass-Light;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Light.ttf');
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-Light.ttf');
 }
 
 @font-face {
         
 	font-family: Overpass-Light;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-Light-Italic.ttf'0);
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-Light-Italic.ttf'0);
 	font-style: Italic;
 }
 
 @font-face {
         
 	font-family: Overpass-ExtraLight;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight.ttf');
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight.ttf');
 }
 @font-face {
         
 	font-family: Overpass-ExtraLight;
-        src: url('./fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight-Italic.ttf');
+        src: url('../fonts/overpass-fonts-ttf-2.1/Overpass-ExtraLight-Italic.ttf');
 	font-style: Italic;
 }
 body{
@@ -86,6 +84,7 @@ p{
 	-webkit-border-image: -webkit-linear-gradient(left, #000000 0%, #434343 100%);
 	 border-image: linear-gradient(to right, #000000 0%, #434343 100%);
 	 border-image-slice: 1;
+	 padding-bottom: 13px;
 }
 .header h1{
 	
@@ -99,6 +98,36 @@ p{
 	font-style: italic;
 	font-size: 16px;
 	margin-top: 5px;
+}
+.header nav{
+	
+	text-align: center;
+	font-family: Overpass-Light, Helvetica, "Sans Serif";
+}
+.header nav a{
+	
+	text-decoration: none;
+	background-color: dimgray;
+	color: white;
+	padding: 8px 16px;
+	margin-bottom: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+.header nav a:hover{
+	
+	background-color: #757575;
+	-webkit-transition: ease .25s; /* Chrome, Safari */ 
+	transition: ease .25s; /* Firefox, Opera, Edge */
+}
+.header nav a:active{
+	background-color: blue;
+}
+.header nav a.current{
+	
+	background-color: #808080;
+	color: black;
 }
 .content{
 	
